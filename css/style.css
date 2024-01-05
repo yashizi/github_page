@@ -61,14 +61,12 @@ ul.gnav-menu li a {
 }
 
 ul.gnav-menu li a:hover {
-    /* text-decoration: underline; */
     font-size: 18px;
 }
 
 
 /* ハンバーガーメニュー */
 .gnav-toggle {
-    /* position: relative; */
     margin-top: 20px;
 }
 
@@ -175,39 +173,43 @@ ul.sns-menu {
 .mv-image {
     width: 70vw;
     height: auto;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .mv-title {
     position: absolute;
     bottom: 20%;
     left: 25px;
+    line-height: 1.1;
 }
 
 .mv-sub-text {
-    font-size: .7rem;
+    font-size: 2.5vw;
     background-color: #fff;
     margin: 5px;
     padding: 1px;
     display: inline-block;
+    font-weight: normal;
 }
 
 .mv-text_en {
-    font-size: 1rem;
+    font-size: 4vw;
     background: #fff;
     margin: 5px;
     padding: 3px;
     display: flex;
     display: inline-block;
+    font-weight: normal;
 }
 
 .mv-text_jp {
-    font-size: 1rem;
+    font-size: 4vw;
     background: #fff;
     margin: 5px;
     padding: 3px;
     display: flex;
     display: inline-block;
+    font-weight: normal;
 }
 
 .fadeIn {
@@ -366,7 +368,7 @@ ul.sns-menu {
 
     .mv-image {
         width: 80vw;
-        max-width: 420px;
+        max-width: 550px;
         position: absolute;
         top: 50%;
         left: calc(50% + 100px);
@@ -376,23 +378,26 @@ ul.sns-menu {
     .mv-title {
         position: absolute;
         left: calc(10% + 200px);
-        bottom: 10%;
+        bottom: 10%;;
     }
 
     .mv-sub-text {
         /* font-size: 1rem; */
         /* font-size: 100%; */
         font-size: 2vh;
+        font-weight: normal;
     }
     
     .mv-text_en {
         /* font-size: 1.5rem; */
-        font-size: 3vh;
+        font-size: 3vw;
+        font-weight: normal;
     }
     
     .mv-text_jp {
         font-size: 1.5rem;
-        font-size: 3vh;
+        font-size: 3vw;
+        font-weight: normal;
     }
 
     .backnumber-title {
