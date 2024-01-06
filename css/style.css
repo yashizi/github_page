@@ -331,7 +331,8 @@ ul.sns-menu {
     }
 
     img.header-logo {
-        width: 65%;
+        /* width: 65%; */
+        width: 80%;
         margin: 20px auto 0;
     }
 
